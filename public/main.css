@@ -1,0 +1,9 @@
+body {
+  width: 900px;
+  background-color: rgba(242, 159, 174, 0.35);
+  padding-left: 100px;
+}
+
+img {
+  width: 100%;
+}
