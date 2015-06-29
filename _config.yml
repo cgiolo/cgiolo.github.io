@@ -1,0 +1,14 @@
+markdown:         redcarpet
+highlighter:      pygments
+
+permalink:        pretty
+relative_permalinks: true
+
+title:            Caterina Giolo
+url:              http://cgiolo.github.io
+baseurl:          /
+
+encoding:         'utf-8'
+author:
+  name:           'Caterina Giolo'
+  url:            https://cgiolo.github.io

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="//fonts.googleapis.com/css?family=Roboto:700,300,100" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet" type="text/css">
+    <link href='/feed.atom' rel='alternate' title='Caterina Giolo' type='application/atom+xml'>
+    <link rel="stylesheet" href="{{site.baseurl}}public/css/main.css">
+    <title>
+      {% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
+    </title>
+  </head>
+  <body>
+    <div class="color-bar"></div>
+    <div class="header">
+      <div class="header-container">
+        <h1 class="header-element"><a href="/">{{ site.title }}</a></h1>
+        <aside class="header-element">
+          <ul class="page-list">
+            <li><a class="page-link" href="/">About Me</a></li>
+            {% for page in site.pages %}
+              {% if page.layout == "page" and page.title != "About Me" and page.title != "404 – Not Found" %}
+                <li><a class="page-link" href="{{page.url}}">{{page.title}}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <main>
+      {{content}}
+    </main>
+  </body>
+  <script type="text/javascript">
+    // Disgusting hack to center all images. Adds a useful class to p elements
+    // with img inside them.
+    [].forEach.call(
+        document.querySelectorAll('article p > img'),
+        function(elem) {
+          elem.parentNode.className = 'center';
+        });
+  </script>
+</html>
