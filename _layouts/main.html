@@ -19,11 +19,10 @@
         <aside class="header-element">
           <ul class="page-list">
             <li><a class="page-link" href="/">About Me</a></li>
-            {% for page in site.pages %}
-              {% if page.layout == "page" and page.title != "About Me" and page.title != "404 – Not Found" %}
-                <li><a class="page-link" href="{{page.url}}">{{page.title}}</a></li>
-              {% endif %}
-            {% endfor %}
+            <li><a class="page-link" href="/tailoring">Tailoring</a></li>
+            <li><a class="page-link" href="/pattern_cutting">Pattern Cutting</a></li>
+            <li><a class="page-link" href="/garment_construction">Garment Construction</a></li>
+            <li><a class="page-link" href="/finished_projects">Projects</a></li>
           </ul>
         </aside>
       </div>
