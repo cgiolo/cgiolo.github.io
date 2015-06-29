@@ -13,7 +13,7 @@ tailor.
 
 ## Education
 
-#### Bespoke Tailoring Level One, Neham College
+#### Bespoke Tailoring Level One, Newham College
 
 Learned thirteen different hand stitches, how to construct a double-jetted
 pocket with or without a flap and a welt pocket, and fundamentals of garment
