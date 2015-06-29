@@ -3,7 +3,7 @@ layout: page
 title: Pattern Cutting
 ---
 
-## Waistcoat Lay Plan
+### Waistcoat Lay Plan
 
 I have learned how to lay plan to ensure that the pieces are on grain and to
 make efficient use of fabric. Note here that the strap is positioned

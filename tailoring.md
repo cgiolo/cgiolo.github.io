@@ -3,4 +3,6 @@ layout: page
 title: Tailoring
 ---
 
-Some of the stitches I have learned.
+###Welt pocket on check fabric
+
+![Welt pocket on check fabric](/public/img/tailoring/welt_pocket_check.jpg)
