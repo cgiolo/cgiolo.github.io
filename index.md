@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-![Caterina Giolo](/public/img/caterina_giolo.jpg)
+![Caterina Giolo](/public/img/about_me.jpg)
 
 A trainee tailor who is committed to delivering bespoke customer service and
 able to build solid rapports with customers.
